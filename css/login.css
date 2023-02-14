@@ -1,0 +1,143 @@
+
+.login-form{    
+    z-index: 2;
+    position: fixed;
+    right: 20px;
+    top: 70px;
+    height: 50%;
+    width: 300px;
+    background-color: #FFFFFF;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgb(63 63 60 / 20%);
+
+
+}
+.login-content{    
+    position: fixed;
+    top: 100px;
+    right: 70px;
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+
+}
+.social-login{    
+    height: 46px;
+    width: 200px;
+    background-color: transparent;
+    border-bottom: 1px solid #eee;
+
+}
+
+.social-login .bid{
+    float: left;
+    width: 100px;
+    height: 45px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.social-login .gg{
+    float: right;
+    width: 100px;
+
+    height: 45px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.lgn{
+
+    background-color: #394dff !important;
+
+    border-color: #394dff !important;
+
+    color: #FFFFFF !important;
+
+}
+
+#fb{
+
+    border: 1px solid #4267B2;
+
+    outline: none;
+
+    background-color: #4267B2;
+
+    color: #FFFFFF;
+
+}
+
+#gg{
+
+    border: 1px solid #394dff;
+
+    outline: none;
+
+    background-color: #394dff;
+
+    color: #FFFFFF;
+
+}
+
+#bid{
+    border: 1px solid #555555;
+    outline: none;
+
+    background-color: #555555;
+
+    color: #FFFFFF;
+  
+
+
+}
+
+.login-content input{    
+
+    height: 43px;
+
+    width: 200px;
+
+    border: 1px solid #bdc3c7;
+    background-color: #f2f2f2;
+
+
+
+
+
+}
+
+.login-content input[type="submit"]{    
+
+    height: 40px;
+
+    width: 200px;
+
+
+
+}
+
+.close-login{
+z-index: 100;
+    float: right;
+
+ 
+    height: 40px;
+
+    width: 40px;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 20px;
+
+    background-color: transparent;
+
+    color: #34495e;
+
+    border-radius: 100px;
+
+}

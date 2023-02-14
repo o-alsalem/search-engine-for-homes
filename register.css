@@ -1,0 +1,73 @@
+body{
+
+    background-color: #ecf0f1;
+   
+
+    
+
+}
+
+html{
+
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+
+}
+.registration-container{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 70%;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+
+.reg-inner{
+    padding-top: 50px;
+
+
+}
+
+.reg-inner h2, a{
+    font-family: helvetica;
+    text-decoration: none;
+
+}
+.reg-inner h2{
+    margin-left: -50px;
+}
+.reg-inner input[type="text"], input[type="email"], input[type="password"]{
+    width: 230px;
+    height: 40px; 
+    border-radius: none;
+    border: 1px solid #eee;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 3px 0 rgb(63 63 60 / 20%);
+
+
+}
+
+.success_message{
+    z-index: 50;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width:100%;
+    height: 80px;
+    text-align: center;
+    background-color: #2ecc71;
+}
+
+.error_message{
+    z-index: 50;
+    position: fixed;
+    left: 0;
+    top: 120px;
+    width:100%;
+    height: 40px;
+    text-align: center;
+    background-color: #e74c3c;
+}
